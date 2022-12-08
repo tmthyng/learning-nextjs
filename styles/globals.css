@@ -1,3 +1,32 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+body {
+  margin: 0 auto;
+  color: white;
+  /* background-color: black; */
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  padding: 1.25rem 1.75rem;
+
+  border-width: 0;
+  border-radius: 9999px;
+  cursor: pointer;
+  
+  color: white;
+  background-color: #0ea5e9;
+}
+
+
+
+.main {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1024px;
+}
