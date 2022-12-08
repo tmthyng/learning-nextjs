@@ -1,15 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;300;500;700&display=swap');
+
 body {
   margin: 0 auto;
+  font-family: 'Libre Franklin', sans-serif;
   color: white;
-  /* background-color: black; */
+  background-color: black;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  margin: 0;
+h1,h2,h3,h4,h5,h6,p { margin: 0; }
+
+h1 { font-size: 2rem; }
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
-p {
-  margin: 0;
+a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2.25px;
+  text-underline-offset: 8px;
 }
 
 button {
@@ -19,9 +29,12 @@ button {
   border-radius: 9999px;
   cursor: pointer;
   
+  font-size: 0.9rem;
   color: white;
   background-color: #0ea5e9;
 }
+
+button:hover { background-color: #0284c7; }
 
 
 
