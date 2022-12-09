@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <nav className={ styles.navigation }>
       <Link href='/'>
-        <h1>Matrix</h1>
+        <h3>Matrix</h3>
       </Link>
 
       <button>Create New</button>

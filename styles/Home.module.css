@@ -10,9 +10,5 @@
   transform: translate(-50%, -50%);
 }
 
-.container h1 {
-  margin-bottom: 1.5rem;
-  font-size: 4rem;
-}
-
+.container h1,
 .container p { margin-bottom: 1.5rem; }
